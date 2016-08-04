@@ -1,0 +1,25 @@
+{
+  "name": "sharaal",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dragonprojects/sharaal",
+  "private": true,
+  "readmeFilename": "README.md",
+  "scripts": {
+    "postinstall": "bower i",
+    "start": "node src/app.js",
+    "develop": "node -r dotenv/config src/app.js"
+  },
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dragonprojects/sharaal.git"
+  }
+}
