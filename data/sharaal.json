@@ -1,4 +1,8 @@
 {
   "firstname": "Christoph",
-  "lastname": "Herrmann"
+  "lastname": "Herrmann",
+  "location": "München, Deutschland",
+  "job": "Senior Web Developer",
+  "company": "maxdome GmbH",
+  "blockquote": "Ich bin ein PHP Entwickler, der sich mehr und mehr in Richtung Node.js, Fullstack JavaScript und der Entwicklung moderner Webanwendungen bewegt."
 }
