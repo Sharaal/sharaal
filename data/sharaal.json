@@ -1,8 +1,43 @@
 {
-  "firstname": "Christoph",
-  "lastname": "Herrmann",
+  "name": "Christoph Herrmann",
+  "portrait": "img/portrait.jpeg",
   "location": "München, Deutschland",
   "job": "Senior Web Developer",
   "company": "maxdome GmbH",
-  "blockquote": "Ich bin ein PHP Entwickler, der sich mehr und mehr in Richtung Node.js, Fullstack JavaScript und der Entwicklung moderner Webanwendungen bewegt."
+  "blockquote": "Ich bin ein Node.js Entwickler, der sich mehr und mehr in Richtung moderne Webanwendungen durch verteilte Services bewegt.",
+  "jobinterests": [
+    { "title": "Node.js", "description": "Node.js ist für mich derzeit die Sprache mit dem größten Potenzial, der größten Effektivität in der Entwicklung und der zu mir passendsten Kultur. Daher fokusiere ich mich derzeit auch mehr auf Node.js, mache aber zwischendurch auch gerne JavaScript im Frontend." },
+    { "title": "Spiele", "description": "Spiele sind nicht nur ein großes Hobby von mir, sondern gehörten auch lange Zeit zu meinem Beruf dazu. Vor allem das Erstellen komplexer Spielmechaniken, die Atmosphäre in der Branche und die Unterhaltung von Spielern machen den Reiz der Spieleentwicklung für mich aus." }
+  ],
+  "references": [
+    {
+      "image": "img/references/maxdome.png",
+      "thumbnail": "img/references/thumbnails/maxdome.png",
+      "title": "maxdome",
+      "description": "Als Mitglied im Frontend Team bin ich derzeit bei maxdome für das Web Portal, den Blog und auch Clients wie dem Chromecast und dem neuen HTML5 Player verantwortlich. Neben der täglichen Arbeit bin ich vor allem technischer Verantwortlicher für die Einführung neuer Technologien wie Node.js und New Relic sowie Pate für größere Features wie dem Pause & Resume.",
+      "url": "http://www.maxdome.de"
+    },
+    {
+      "image": "img/references/grimfall.jpg",
+      "thumbnail": "img/references/thumbnails/grimfall.jpg",
+      "title": "Grimfall",
+      "description": "Als technischer Verantwortlicher für das Backend von Grimfall habe ich mich vor allem mit der Architektur des Anwendungsservers, der Datenbank und der API zum Smartphone/Tablet Client beschäftigt. In meiner Freizeit habe ich während der Zeit mein PHP Framework DragonJsonServer entwickelt welches in diesem Projekt Verwendung fand.",
+      "url": "http://play.google.com/store/apps/details?id=com.gameforge.strategy"
+    },
+    {
+      "image": "img/references/battleknight.png",
+      "thumbnail": "img/references/thumbnails/battleknight.png",
+      "title": "BattleKnight",
+      "description": "Während der Entwicklung des Redesigns in das vier Mann starke Entwicklerteam dazugestossen. Nach dessen Fertigstellung als alleiniger Entwickler gepflegt und weiterentwickelt und letztendlich als Teamleiter eines kleinen Entwicklungsteams zusammen mit mehreren anderen Spielen betreut war BattleKnight ein langer Begleiter meiner Laufbahn.",
+      "url": "http://battleknight.de"
+    }
+  ],
+  "contacts": {
+    "email": "sharaal@dragonprojects.de",
+    "links": [
+      { "image": "img/contacts/xing.png", "title": "Xing", "url": "http://www.xing.com/profile/Christoph_Herrmann34" },
+      { "image": "img/contacts/github.png", "title": "GitHub", "url": "http://github.com/dragonprojects" },
+      { "image": "img/contacts/blog.png", "title": "Blog", "url": "http://dragonprojects.de" }
+    ]
+  }
 }

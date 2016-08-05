@@ -1,0 +1,9 @@
+<hr>
+{% for reference in references %}
+  {% if loop.index % 2 %}
+    {% include "./references/reference-image-left.html.twig" with reference %}
+  {% else %}
+    {% include "./references/reference-image-right.html.twig" with reference %}
+  {% endif %}
+{% endfor %}
+<hr>

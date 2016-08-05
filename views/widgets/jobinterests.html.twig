@@ -1,0 +1,6 @@
+<div class="row marketing">
+  {% set columns = 12 / jobinterests.length %}
+  {% for jobinterest in jobinterests %}
+    {% include "./jobinterests/jobinterest.html.twig" with jobinterest %}
+  {% endfor %}
+</div>
