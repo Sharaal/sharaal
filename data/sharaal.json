@@ -52,7 +52,7 @@
         "image": "img/references/private/dqwixx.png",
         "thumbnail": "img/references/private/thumbnails/dqwixx.png",
         "title": "dqwixx",
-        "description": "Coming soon...",
+        "description": "Qwixx ist ein wunderbares Würfelspiel. Allerdings waren wir bei unseren Spieleabenden zunehmend genervt vom Verschleiß der Spielblöcke und dem Ausrechnen der Punkte. Aus dem Grund habe ich einen digitalen Spielblock entwickelt für sämtliche Spielvarianten und per Phonegap auch als mobile Apps verfügbar gemacht.",
         "url": "http://dqwixx.dscores.de/"
       },
       {
@@ -66,7 +66,7 @@
         "image": "img/references/private/dnode.png",
         "thumbnail": "img/references/private/thumbnails/dnode.png",
         "title": "dnode",
-        "description": "Coming soon...",
+        "description": "DragonNode.js baute auf ein eigenes Framework mit eigener Modulstruktur auf. Am Anfang als gute Idee gehalten, hat sich doch nach einige Zeit gezeigt, dass der Standardweg durch die Bereitstellung von Express Middlewares deutlich flexibler ist. Daher hab ich alle von mir verwendeten Module refactored.",
         "url": "http://github.com/dnode/"
       },
       {
