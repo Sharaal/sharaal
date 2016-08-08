@@ -14,14 +14,14 @@
       "image": "img/references/maxdome-onboard.png",
       "thumbnail": "img/references/thumbnails/maxdome-onboard.png",
       "title": "maxdome onboard",
-      "description": "Aktuell arbeite ich im onboard Projekt am Backend im ICE als auch die dazugehörige API auf maxdome Seite. Vor allem das Handling der Kombination lokaler Daten (Assetdaten und CMS Daten), Backend Anbindungen (Registrierung/Login und Assetbestellung) und Remote Services (Irdeto DRM Lizenzen) und das Error Handling, wenn die Verbindung im WiFi oder nach Außen nicht verfügbar ist, ist eine interessante Herausforderung.",
+      "description": "Aktuell arbeite ich im onboard Projekt am Backend im ICE als auch die dazugehörige API auf maxdome Seite. Vor allem das Handling der Kombination lokaler Daten (Assetdaten und CMS Daten), Backend Anbindungen (Registrierung/Login und Assetbestellung) und Remote Services (Irdeto DRM Lizenzen) sowie das Error Handling, wenn die Verbindung im WiFi oder nach Außen nicht verfügbar ist, ist eine interessante Herausforderung.",
       "url": "http://www.maxdome-onboard.de/"
     },
     {
       "image": "img/references/maxdome-frontend.png",
       "thumbnail": "img/references/thumbnails/maxdome-frontend.png",
       "title": "maxdome",
-      "description": "Als Mitglied im Frontend Team war ich für das Web Portal, den Blog und auch Clients wie dem Chromecast und dem neuen HTML5 Player verantwortlich. Neben der täglichen Arbeit bin ich vor allem auch technischer Verantwortlicher für die Einführung neuer Technologien wie Node.js und Application Performance Monitoring sowie Pate für größere Features wie dem Pause & Resume. Als Node.js Entwickler war ich danach Teil des Teams zur Erstellung der Orchestration API um nicht nur Web sondern auch alle anderen Clients für den Relaunch an unser Redaktionssystem anzubinden und die übrigen Backend Services zu abstrahieren.",
+      "description": "Als Mitglied im Frontend Team war ich für das Web Portal, den Blog und auch Clients wie dem Chromecast und dem neuen HTML5 Player verantwortlich. Neben der täglichen Arbeit bin ich vor allem auch technischer Verantwortlicher für die Einführung neuer Technologien wie Node.js und Application Performance Monitoring sowie Pate für größere Features wie dem Pause & Resume.<br/>Als Node.js Entwickler war ich danach Teil des Teams zur Erstellung der Orchestration API um nicht nur Web sondern auch alle anderen Clients für den Relaunch an unser Redaktionssystem anzubinden und die übrigen Backend Services zu abstrahieren.",
       "url": "http://www.maxdome.de"
     },
     {
