@@ -56,6 +56,8 @@
         "url": "http://maxdome-rssfeeds.herokuapp.com/"
       },
       {
+        "image": "img/references/private/dnode.png",
+        "thumbnail": "img/references/private/thumbnails/dnode.png",
         "title": "dnode",
         "description": "Coming soon...",
         "url": "http://github.com/dnode/"
