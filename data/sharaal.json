@@ -49,6 +49,8 @@
         "url": "http://github.com/dragonprojects/mxd-search-command/"
       },
       {
+        "image": "img/references/private/maxdome-rssfeeds.png",
+        "thumbnail": "img/references/private/thumbnails/maxdome-rssfeeds.png",
         "title": "maxdome RSS-Feeds",
         "description": "Coming soon...",
         "url": "http://maxdome-rssfeeds.herokuapp.com/"
