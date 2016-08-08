@@ -42,6 +42,8 @@
     ],
     "private": [
       {
+        "image": "img/references/private/maxdome-search-command.jpeg",
+        "thumbnail": "img/references/private/thumbnails/maxdome-search-command.jpeg",
         "title": "maxdome Search Command",
         "description": "Coming soon...",
         "url": "http://github.com/dragonprojects/mxd-search-command/"
