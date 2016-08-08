@@ -11,29 +11,22 @@
   ],
   "references": [
     {
-      "image": "img/references/maxdome-onboard.png",
-      "thumbnail": "img/references/thumbnails/maxdome-onboard.png",
-      "title": "maxdome onboard",
-      "description": "Aktuell arbeite ich im onboard Projekt am Backend im ICE als auch die dazugehörige API auf maxdome Seite. Vor allem das Handling der Kombination lokaler Daten (Assetdaten und CMS Daten), Backend Anbindungen (Registrierung/Login und Assetbestellung) und Remote Services (Irdeto DRM Lizenzen) sowie das Error Handling, wenn die Verbindung im WiFi oder nach Außen nicht verfügbar ist, ist eine interessante Herausforderung.",
-      "url": "http://www.maxdome-onboard.de/"
-    },
-    {
-      "image": "img/references/maxdome-frontend.png",
-      "thumbnail": "img/references/thumbnails/maxdome-frontend.png",
+      "image": "img/references/maxdome.png",
+      "thumbnail": "img/references/thumbnails/maxdome.png",
       "title": "maxdome",
-      "description": "Als Mitglied im Frontend Team war ich für das Web Portal, den Blog und auch Clients wie dem Chromecast und dem neuen HTML5 Player verantwortlich. Neben der täglichen Arbeit bin ich vor allem auch technischer Verantwortlicher für die Einführung neuer Technologien wie Node.js und Application Performance Monitoring sowie Pate für größere Features wie dem Pause & Resume.<br/>Als Node.js Entwickler war ich danach Teil des Teams zur Erstellung der Orchestration API um nicht nur Web sondern auch alle anderen Clients für den Relaunch an unser Redaktionssystem anzubinden und die übrigen Backend Services zu abstrahieren.",
+      "description": "Als Mitglied im Frontend Team war ich für das Web Portal, den Blog und auch Clients wie dem Chromecast und dem neuen HTML5 Player verantwortlich. Neben der täglichen Arbeit bin ich vor allem auch technischer Verantwortlicher für die Einführung neuer Technologien wie Node.js und Application Performance Monitoring sowie Pate für größere Features wie dem Pause & Resume.<br/>Als Node.js Entwickler war ich danach Teil des Teams zur Erstellung der Orchestration API um nicht nur Web sondern auch alle anderen Clients für den Relaunch an unser Redaktionssystem anzubinden und die übrigen Backend Services zu abstrahieren.<br/>Aktuell arbeite ich im onboard Projekt am Backend im ICE als auch die dazugehörige API auf maxdome Seite. Vor allem das Handling der Kombination lokaler Daten (Assetdaten und CMS Daten), Backend Anbindungen (Registrierung/Login und Assetbestellung) und Remote Services (Irdeto DRM Lizenzen) sowie das Error Handling, wenn die Verbindung im WiFi oder nach Außen nicht verfügbar ist, sind interessante Herausforderungen.",
       "url": "http://www.maxdome.de"
     },
     {
-      "image": "img/references/gameforge-grimfall.jpg",
-      "thumbnail": "img/references/thumbnails/gameforge-grimfall.jpg",
+      "image": "img/references/grimfall.jpg",
+      "thumbnail": "img/references/thumbnails/grimfall.jpg",
       "title": "Grimfall",
       "description": "Als technischer Verantwortlicher für das Backend von Grimfall habe ich mich vor allem mit der Architektur des Anwendungsservers, der Datenbank und der API zum Smartphone/Tablet Client beschäftigt. In meiner Freizeit habe ich während der Zeit mein PHP Framework DragonJsonServer entwickelt welches in diesem Projekt Verwendung fand.",
       "url": "http://play.google.com/store/apps/details?id=com.gameforge.strategy"
     },
     {
-      "image": "img/references/gameforge-battleknight.png",
-      "thumbnail": "img/references/thumbnails/gameforge-battleknight.png",
+      "image": "img/references/battleknight.png",
+      "thumbnail": "img/references/thumbnails/battleknight.png",
       "title": "BattleKnight",
       "description": "Während der Entwicklung des Redesigns in das vier Mann starke Entwicklerteam dazugestossen. Nach dessen Fertigstellung als alleiniger Entwickler weiterentwickelt und letztendlich als Teamleiter eines kleinen Entwicklungsteams zusammen mit mehreren anderen Spielen betreut war BattleKnight ein langer Begleiter meiner Laufbahn.",
       "url": "http://battleknight.de"
