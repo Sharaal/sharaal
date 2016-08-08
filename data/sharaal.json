@@ -45,15 +45,22 @@
         "image": "img/references/private/maxdome-search-command.jpeg",
         "thumbnail": "img/references/private/thumbnails/maxdome-search-command.jpeg",
         "title": "maxdome Search Command",
-        "description": "Coming soon...",
+        "description": "Bots sind die Zukunft, zumindest laut Facebook und Microsoft. Daher habe ich mich ein wenig damit befasst, wie man Chat Kommandos schreiben könnte und habe dies mit einem Kommando für die maxdome Suche ausprobiert. Dieses habe ich in Facebook, Slack und IRC durch kleine Wrapper Anwendungen integriert.",
         "url": "http://github.com/dragonprojects/mxd-search-command/"
       },
       {
         "image": "img/references/private/maxdome-rssfeeds.png",
         "thumbnail": "img/references/private/thumbnails/maxdome-rssfeeds.png",
         "title": "maxdome RSS-Feeds",
-        "description": "Coming soon...",
+        "description": "Content Discovery war und ist immernoch ein großes Thema bei maxdome. Für mich privat habe ich dieses Thema durch RSS-Feeds gelöst, die mich über alle neu hinzugekommene Inhalte informieren. In dem Projekt habe ich mich vor allem auch detailierter mit Koa und Babel beschäftigt.",
         "url": "http://maxdome-rssfeeds.herokuapp.com/"
+      },
+      {
+        "image": "img/references/private/dqwixx.png",
+        "thumbnail": "img/references/private/thumbnails/dqwixx.png",
+        "title": "dqwixx",
+        "description": "Coming soon...",
+        "url": "http://dqwixx.dscores.de/"
       },
       {
         "image": "img/references/private/dnode.png",
