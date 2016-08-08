@@ -10,9 +10,11 @@
         {% for reference in references[area] %}
           <div class="row marketing">
             <div class="col-md-3">
-              <a href="{{ reference.image }}" data-lightbox="references-{{ area }}" data-title="{{ reference.title }}">
-                <img src="{{ reference.thumbnail }}" alt="" class="img-thumbnail" />
-              </a>
+              {% if reference.image and reference.thumbnail %}
+                <a href="{{ reference.image }}" data-lightbox="references-{{ area }}" data-title="{{ reference.title }}">
+                  <img src="{{ reference.thumbnail }}" alt="" class="img-thumbnail" />
+                </a>
+              {% endif %}
             </div>
             <div class="col-md-9">
               <h4>{{ reference.title }}</h4>

@@ -31,21 +31,43 @@
         "title": "BattleKnight",
         "description": "Während der Entwicklung des Redesigns in das vier Mann starke Entwicklerteam dazugestossen. Nach dessen Fertigstellung als alleiniger Entwickler weiterentwickelt und letztendlich als Teamleiter eines kleinen Entwicklungsteams zusammen mit mehreren anderen Spielen betreut war BattleKnight ein langer Begleiter meiner Laufbahn.",
         "url": "http://battleknight.de"
+      },
+      {
+        "image": "img/references/professional/genodata.png",
+        "thumbnail": "img/references/professional/thumbnails/genodata.png",
+        "title": "GenoData",
+        "description": "Den Anfang meiner beruflichen Laufbahn habe ich als Auszubildender bei GenoData bestritten. Vor allem die Nähe zu den Kunden, das hohe Maß an Qualität, Sicherheit und Performance aber vor allem auch die Erfahrungen mit Lua, die mein Herz für Skriptsprachen entflammt haben, haben mich auf meinen weiteren Weg vorbereitet.",
+        "url": "http://www.genodata.de"
       }
     ],
     "private": [
       {
+        "title": "maxdome Search Command",
+        "description": "Coming soon...",
+        "url": "http://github.com/dragonprojects/mxd-search-command/"
+      },
+      {
+        "title": "maxdome RSS-Feeds",
+        "description": "Coming soon...",
+        "url": "http://maxdome-rssfeeds.herokuapp.com/"
+      },
+      {
+        "title": "dnode",
+        "description": "Coming soon...",
+        "url": "http://github.com/dnode/"
+      },
+      {
         "image": "img/references/private/dragonuniverse.png",
         "thumbnail": "img/references/private/thumbnails/dragonuniverse.png",
         "title": "DragonUniverse",
-        "description": "Meine aktuelle private Spielwiese um neue Möglichkeiten in der Webentwicklung auszuprobieren. Vor allem die Landingpage hat mir viel beigebracht über SEO und Facebooks Open Graph Tags. Aber auch durch das gesamte Projekt entwickle ich mich ständig weiter. Insbesondere das Thema \"Wie entwickelt man eine moderne Webandung\" habe ich mit dem Projekt zum Aufhänger einiger Exkurse und Tech Talks gemacht.",
+        "description": "Eine meiner privaten Spielwiesen um neue Möglichkeiten in der Webentwicklung auszuprobieren. Vor allem die Landingpage hat mir viel beigebracht über SEO und Facebooks Open Graph Tags. Aber auch durch das gesamte Projekt entwickle ich mich ständig weiter. Insbesondere das Thema \"Wie entwickelt man eine moderne Webandung\" habe ich mit dem Projekt zum Aufhänger einiger Exkurse und Tech Talks gemacht.",
         "url": "http://dragonuniverse.de"
       },
       {
         "image": "img/references/private/dragonnodejs.png",
         "thumbnail": "img/references/private/thumbnails/dragonnodejs.png",
         "title": "DragonNode.js",
-        "description": "Der Kern meiner Pakete die ich für Projekte mit Node.js verwende. Damit habe ich mir privat eine kleine Sammlung an Modulen und Bundles erschaffen um meine privaten Projekte sehr effizient zu entwickeln und habe vor allem viel über modulare Entwicklung und serviceorientierte Architektur (SOA) gelernt.",
+        "description": "Der Kern meiner Pakete die ich für Projekte mit Node.js verwendet habe. Damit habe ich mir privat eine kleine Sammlung an Modulen und Bundles erschaffen um meine privaten Projekte sehr effizient zu entwickeln und habe vor allem viel über modulare Entwicklung und serviceorientierte Architektur (SOA) gelernt.",
         "url": "http://github.com/dragonnodejs"
       },
       {
