@@ -1,5 +1,5 @@
+/dest
 /node_modules
-/npm-debug.log*
-
 /www/vendor
 /.env
+/npm-debug.log*

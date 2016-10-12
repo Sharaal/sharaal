@@ -1,10 +1,14 @@
-'use strict';
+import dotenv from 'dotenv';
+import express from 'express';
+import swig from 'swig';
 
-const express = require('express');
+import data from '../data/sharaal.json';
+
+dotenv.config({ silent: true });
+
 const app = express();
 app.use(express.static('www'));
-app.engine('twig', require('swig').renderFile);
-const data = require('../data/sharaal.json');
+app.engine('twig', swig.renderFile);
 app.get('/', (req, res) => {
   if (req.get('Accept') === 'application/json') {
     res.send(data);
