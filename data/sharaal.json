@@ -42,6 +42,12 @@
     ],
     "private": [
       {
+        "image": "img/references/private/dalexa-maxdome.png",
+        "thumbnail": "img/references/private/thumbnails/dalexa-maxdome.png",
+        "title": "dalexa-maxdome",
+        "description": "Neben Bots hat vor allem Google auch die Stunde der Sprachassistenten eingeläutet. Alexa ist das erste Produkt dieser Richtung von Amazon und ich habe dies zum Anlass genommen mehr in diesen Bereich zu schauen und einige Szenarios zur Content Discovery von maxdome entwickelt."
+      },
+      {
         "image": "img/references/private/screeps.com.png",
         "thumbnail": "img/references/private/thumbnails/screeps.com.png",
         "title": "Screeps",
