@@ -42,10 +42,18 @@
     ],
     "private": [
       {
+        "image": "img/references/private/ai-*.png",
+        "thumbnail": "img/references/private/thumbnails/ai-*.png",
+        "title": "ai-*",
+        "description": "Mein Auslug in die Welt der Sprachassistenten mit Alexa und Google Home ist Erwachsener geworden. In Eigenregie hab ich dalexa-maxdome in eine Service Oriented Architecture überführt, Google Home angebunden, Alexa's kleines Feature 'Tägliche Zusammenfassung' mit 'maxdome - Tipp des Tages' als erster Skill dieser Art im Bereich 'Film & Fernsehen' veröffentlicht und alles zusammen als Artikel für den geplanten Pro 7 Tech Blog aufbereitet.",
+        "url": "http://dragonprojects.de/ai-first-maxdome/"
+      },
+      {
         "image": "img/references/private/dalexa-maxdome.png",
         "thumbnail": "img/references/private/thumbnails/dalexa-maxdome.png",
         "title": "dalexa-maxdome",
-        "description": "Neben Bots hat vor allem Google auch die Stunde der Sprachassistenten eingeläutet. Alexa ist das erste Produkt dieser Richtung von Amazon und ich habe dies zum Anlass genommen mehr in diesen Bereich zu schauen und einige Szenarios zur Content Discovery von maxdome entwickelt."
+        "description": "Neben Bots hat vor allem Google auch die Stunde der Sprachassistenten eingeläutet. Alexa ist das erste Produkt dieser Richtung von Amazon und ich habe dies zum Anlass genommen mehr in diesen Bereich zu schauen und einige Szenarios zur Content Discovery von maxdome entwickelt.",
+        "url": "http://github.com/dragonprojects/dalexa-maxdome/"
       },
       {
         "image": "img/references/private/screeps.com.png",
