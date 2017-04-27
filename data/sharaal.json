@@ -42,9 +42,9 @@
     ],
     "private": [
       {
-        "image": "img/references/private/ai-*.png",
-        "thumbnail": "img/references/private/thumbnails/ai-*.png",
-        "title": "ai-*",
+        "image": "img/references/private/ai-first-at-maxdome.png",
+        "thumbnail": "img/references/private/thumbnails/ai-first-at-maxdome.png",
+        "title": "'AI first' @ maxdome",
         "description": "Mein Auslug in die Welt der Sprachassistenten mit Alexa und Google Home ist Erwachsener geworden. In Eigenregie hab ich dalexa-maxdome in eine Service Oriented Architecture überführt, Google Home angebunden, Alexa's kleines Feature 'Tägliche Zusammenfassung' mit 'maxdome - Tipp des Tages' als erster Skill dieser Art im Bereich 'Film & Fernsehen' veröffentlicht und alles zusammen als Artikel für den geplanten Pro 7 Tech Blog aufbereitet.",
         "url": "http://dragonprojects.de/ai-first-maxdome/"
       },
