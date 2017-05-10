@@ -18,6 +18,7 @@
   "scripts": {
     "develop": "nodemon src/web.js",
     "lint": "eslint src",
+    "postinstall": "bower i",
     "start": "node src/web.js"
   },
   "engines": {
