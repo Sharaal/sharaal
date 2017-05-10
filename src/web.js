@@ -8,9 +8,6 @@ const client = require('dcontentful').createClient({
   accessToken: process.env.ACCESS_TOKEN,
 });
 app.get('/', async (req, res) => {
-
-  console.log('LOADING...');
-
   const data = await client.getEntry(process.env.ENTRY_ID);
   if (req.get('Accept') === 'application/json') {
     res.send(data);
