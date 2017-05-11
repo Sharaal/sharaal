@@ -15,7 +15,10 @@ app.get('/', async (req, res) => {
       const data = await client.getEntry(process.env.ENTRY_ID);
       callback(data);
     },
-    (data) => {
+    (data, hit) => {
+      if (hit && req.query.purge !== undefined) {
+        return true;
+      }
       if (req.get('Accept') === 'application/json') {
         res.send(data);
       } else {
