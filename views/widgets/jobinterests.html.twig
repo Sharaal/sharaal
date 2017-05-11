@@ -1,9 +1,11 @@
-<div class="row marketing">
-  {% set columns = 12 / jobinterests.length %}
-  {% for jobinterest in jobinterests %}
-    <div class="col-md-{{ columns }}">
-      <h4 class="text-center">{{ jobinterest.title }}</h4>
-      <p class="text-justify">{{ jobinterest.description }}</p>
-    </div>
-  {% endfor %}
-</div>
+{% if jobinterests.length > 0 %}
+  <div class="row marketing">
+    {% set columns = 12 / jobinterests.length %}
+    {% for jobinterest in jobinterests %}
+      <div class="col-md-{{ columns }}">
+        <h4 class="text-center">{{ jobinterest.title }}</h4>
+        <p class="text-justify">{{ jobinterest.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

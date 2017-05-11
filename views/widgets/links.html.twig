@@ -1,12 +1,13 @@
-<div class="row marketing">
-  {% set columns = 12 / links.length %}
-  {% for link in links %}
-    <div class="col-xs-{{ columns }}">
-      <h4 class="text-center">
+{% if links.length > 0 %}
+  <div class="row marketing">
+    {% set columns = 12 / links.length %}
+    {% for link in links %}
+      <div class="col-xs-{{ columns }} text-center">
         <a href="{{ link.url }}">
-          <img src="{{ link.icon.file.url }}" title="{{ link.title }}" alt="{{ link.title }}" height="64" width="64" />
+          <img src="{{ link.icon.file.url }}" alt="" height="64" width="64" />
+          {{ link.title }}
         </a>
-      </h4>
-    </div>
-  {% endfor %}
-</div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
