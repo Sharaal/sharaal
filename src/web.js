@@ -11,7 +11,7 @@ const dcache = require('dcache')(require('dcache-memory')());
 app.get('/', async (req, res) => {
   dcache(
     'data',
-    async (callback) => {
+    async callback => {
       const data = await client.getEntry(process.env.ENTRY_ID);
       callback(data);
     },
