@@ -13,10 +13,10 @@
     "start": "node src/web.js"
   },
   "dependencies": {
+    "@dnode/contentful": "^1.0.0",
     "@dnode/controllers": "^1.0.0",
     "@dnode/middlewares": "^1.0.1",
     "bower": "^1.7.9",
-    "dcontentful": "^1.0.0",
     "dotenv-safe": "^4.0.4",
     "express": "^4.14.0",
     "swig": "^1.4.2"

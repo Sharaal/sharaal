@@ -1,9 +1,9 @@
-module.exports = ({ contentful, entryId }) => [
+module.exports = ({ contentfulClient, entryId }) => [
   'get',
   [
     '/',
     async (req, res) => {
-      const user = await contentful.getEntry(entryId);
+      const user = await contentfulClient.getEntry(entryId);
       if (req.get('Accept') === 'application/json') {
         res.send(user);
       } else {

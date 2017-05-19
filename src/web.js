@@ -7,14 +7,14 @@ app.engine('twig', require('swig').renderFile);
 
 require('@dnode/middlewares')(app, [express.static('www')]);
 
-const contentful = require('dcontentful').createClient({
+const contentfulClient = require('@dnode/contentful')({
   accessToken: process.env.ACCESS_TOKEN,
   space: process.env.SPACE_ID,
 });
 const entryId = process.env.ENTRY_ID;
 
 require('@dnode/controllers')(app, [
-  require('./controller')({ contentful, entryId }),
+  require('./controller')({ contentfulClient, entryId }),
 ]);
 
 if (module.parent) {
