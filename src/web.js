@@ -10,8 +10,8 @@ require('@dnode/middlewares')(app, [
 ]);
 
 const contentful = require('dcontentful').createClient({
-  space: process.env.SPACE_ID,
   accessToken: process.env.ACCESS_TOKEN,
+  space: process.env.SPACE_ID,
 });
 const entryId = process.env.ENTRY_ID;
 
