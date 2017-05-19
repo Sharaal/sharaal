@@ -5,7 +5,7 @@ const app = express();
 app.disable('x-powered-by');
 app.engine('twig', require('swig').renderFile);
 
-require('dmiddlewares')(app, [
+require('@dnode/middlewares')(app, [
   express.static('www'),
 ]);
 
@@ -15,7 +15,7 @@ const contentful = require('dcontentful').createClient({
 });
 const entryId = process.env.ENTRY_ID;
 
-require('dcontrollers')(app, [
+require('@dnode/controllers')(app, [
   require('./controller')({ contentful, entryId }),
 ]);
 
