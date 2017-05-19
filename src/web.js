@@ -1,30 +1,26 @@
 require('dotenv-safe').config();
 
-const app = require('dexpress')();
-app.use(require('express').static('www'));
+const express = require('express');
+const app = express();
+app.disable('x-powered-by');
 app.engine('twig', require('swig').renderFile);
-const client = require('dcontentful').createClient({
+
+require('dmiddlewares')(app, [
+  express.static('www'),
+]);
+
+const contentful = require('dcontentful').createClient({
   space: process.env.SPACE_ID,
   accessToken: process.env.ACCESS_TOKEN,
 });
-const dcache = require('dcache')(require('dcache-memory')());
-app.get('/', async (req, res) => {
-  dcache(
-    'data',
-    async callback => {
-      const data = await client.getEntry(process.env.ENTRY_ID);
-      callback(data);
-    },
-    (data, hit) => {
-      if (hit && req.query.purge !== undefined) {
-        return true;
-      }
-      if (req.get('Accept') === 'application/json') {
-        res.send(data);
-      } else {
-        res.render('index.html.twig', data);
-      }
-    },
-    process.env.EXPIRE || require('dparse-duration')('1h', 's')
-  );
-});
+const entryId = process.env.ENTRY_ID;
+
+require('dcontrollers')(app, [
+  require('./controller')({ contentful, entryId }),
+]);
+
+if (module.parent) {
+  module.exports = app;
+} else {
+  app.listen(process.env.PORT);
+}
