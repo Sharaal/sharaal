@@ -1,28 +1,16 @@
 {
   "private": true,
+  "engines": {
+    "node": "^7.6.0"
+  },
   "name": "sharaal",
-  "version": "1.0.0",
-  "description": "Personal profile frontend showing all business relevant information",
-  "license": "UNLICENSED",
-  "homepage": "http://github.com/dragonprojects/sharaal",
-  "author": {
-    "name": "Sharaal",
-    "email": "developer@dragonprojects.de",
-    "url": "http://dragonprojects.de"
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dragonprojects/sharaal.git"
-  },
-  "readmeFilename": "README.md",
   "scripts": {
-    "develop": "nodemon src/web.js",
-    "fmt": "dprettier",
     "postinstall": "bower i",
     "start": "node src/web.js"
-  },
-  "engines": {
-    "node": "7.6.x"
   },
   "dependencies": {
     "bower": "^1.7.9",
@@ -34,8 +22,5 @@
     "express": "^4.14.0",
     "swig": "^1.4.2"
   },
-  "devDependencies": {
-    "dprettier": "^1.1.0",
-    "nodemon": "^1.11.0"
-  }
+  "devDependencies": {}
 }
