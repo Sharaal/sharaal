@@ -5,6 +5,7 @@
   },
   "name": "sharaal",
   "version": "0.0.0",
+  "description": "Personal profile frontend showing all business relevant information",
   "publishConfig": {
     "access": "public"
   },
