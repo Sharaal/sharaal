@@ -5,9 +5,7 @@ const app = express();
 app.disable('x-powered-by');
 app.engine('twig', require('swig').renderFile);
 
-require('@dnode/middlewares')(app, [
-  express.static('www'),
-]);
+require('@dnode/middlewares')(app, [express.static('www')]);
 
 const contentful = require('dcontentful').createClient({
   accessToken: process.env.ACCESS_TOKEN,
