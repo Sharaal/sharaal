@@ -2,12 +2,13 @@
   "engines": {
     "node": "^7.6.0"
   },
-  "name": "sharaal",
+  "name": "@dragonprojects/sharaal",
   "version": "1.0.0",
   "description": "Personal profile frontend showing all business relevant information",
   "publishConfig": {
     "access": "public"
   },
+  "main": "src/web.js",
   "scripts": {
     "postinstall": "bower i",
     "start": "node src/web.js"
