@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 app.disable('x-powered-by');
 app.engine('twig', require('swig').renderFile);
-app.set('views', require('path').join(__dirname, '../views'));
+app.set('views', path.join(__dirname, '../views'));
 
 require('@dnode/middlewares')(app, [
   express.static(path.join(__dirname, '../www'))]
