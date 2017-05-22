@@ -1,14 +1,14 @@
 <div class="row marketing">
   <div class="col-xs-3">
-    {% if portrait %}
-      <a href="{{ portrait.file.url }}" data-lightbox="portrait" data-title="">
-        <img src="{{ portrait.file.url }}" alt="" class="img-thumbnail" />
+    {% if user.portrait %}
+      <a href="{{ user.portrait.file.url }}" data-lightbox="portrait" data-title="">
+        <img src="{{ user.portrait.file.url }}" alt="" class="img-thumbnail" />
       </a>
     {% endif %}
   </div>
   <div class="col-xs-9">
-    <p><strong>{{ job }}</strong></p>
-    <p><strong>{{ company }}</strong>, {{ location }}</p>
-    <p class="text-justify">{{ blockquote }}</p>
+    <p><strong>{{ user.job }}</strong></p>
+    <p><strong>{{ user.company }}</strong>, {{ user.location }}</p>
+    <p class="text-justify">{{ user.blockquote }}</p>
   </div>
 </div>

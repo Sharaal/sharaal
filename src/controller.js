@@ -7,7 +7,7 @@ module.exports = ({ contentfulClient, entryId }) => [
       if (req.get('Accept') === 'application/json') {
         res.send(user);
       } else {
-        res.render('index.html.twig', user);
+        res.render('index.html.twig', { user });
       }
     },
   ],

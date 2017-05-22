@@ -1,6 +1,6 @@
-{% if attachements.length > 0 %}
+{% if user.attachements.length > 0 %}
   <ul class="list-inline center-block text-center">
-    {% for attachement in attachements %}
+    {% for attachement in user.attachements %}
       <li><a href="{{ attachement.file.file.url }}">{{ attachement.title }}</a></li>
     {% endfor %}
   </ul>

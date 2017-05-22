@@ -1,4 +1,4 @@
-{% if professionalReferences.length > 0 and privateReferences.length > 0 %}
+{% if user.professionalReferences.length > 0 and user.privateReferences.length > 0 %}
   <div>
     <ul class="nav nav-tabs" role="tablist">
       {% for area, label in { 'professionalReferences': 'Beruflich', 'privateReferences': 'Privat' } %}
@@ -6,7 +6,7 @@
       {% endfor %}
     </ul>
     <div class="tab-content">
-      {% set areaReferences = { 'professionalReferences': professionalReferences, 'privateReferences': privateReferences } %}
+      {% set areaReferences = { 'professionalReferences': user.professionalReferences, 'privateReferences': user.privateReferences } %}
       {% for area, references in areaReferences %}
         <div role="tabpanel" class="tab-pane{% if loop.index === 1 %} active{% endif %}" id="{{ area }}">
           {% for reference in references %}

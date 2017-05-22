@@ -1,7 +1,7 @@
-{% if links.length > 0 %}
+{% if user.links.length > 0 %}
   <div class="row marketing">
-    {% set columns = 12 / links.length %}
-    {% for link in links %}
+    {% set columns = 12 / user.links.length %}
+    {% for link in user.links %}
       <div class="col-xs-{{ columns }} text-center">
         <a href="{{ link.url }}">
           <img src="{{ link.icon.file.url }}" alt="" height="64" width="64" />

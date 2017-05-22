@@ -1,9 +1,9 @@
-{% if eMail %}
+{% if user.eMail %}
   <div class="row marketing">
     <div class="col-md-12 text-center">
-      <a href="mailto:{{ eMail.eMail }}">
-        <img src="{{ eMail.icon.file.url }}" alt="" height="64" width="64" />
-        {{ eMail.eMail }}
+      <a href="mailto:{{ user.eMail.eMail }}">
+        <img src="{{ user.eMail.icon.file.url }}" alt="" height="64" width="64" />
+        {{ user.eMail.eMail }}
       </a>
     </div>
   </div>
