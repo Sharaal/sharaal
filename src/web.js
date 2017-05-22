@@ -9,8 +9,8 @@ app.engine('twig', require('swig').renderFile);
 app.set('views', path.join(__dirname, '../views'));
 
 require('@dnode/middlewares')(app, [
-  express.static(path.join(__dirname, '../www'))]
-);
+  express.static(path.join(__dirname, '../www')),
+]);
 
 const contentfulClient = require('@dnode/contentful')({
   accessToken: process.env.ACCESS_TOKEN,
