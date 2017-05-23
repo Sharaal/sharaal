@@ -3,8 +3,10 @@
     "node": "^7.6.0"
   },
   "name": "@dragonprojects/sharaal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal profile frontend showing all business relevant information",
+  "repository": "sharaal/sharaal",
+  "license": "UNLICENSED",
   "publishConfig": {
     "access": "public"
   },
