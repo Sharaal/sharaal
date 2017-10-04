@@ -1,14 +1,9 @@
-module.exports = ({ contentfulClient, entryId }) => [
+module.exports = ({ contentful, entryId }) => [
   'get',
   [
     '/',
     async (req, res) => {
-      const user = await contentfulClient.getEntry(entryId);
-      if (req.get('Accept') === 'application/json') {
-        res.send(user);
-      } else {
-        res.render('index.html.twig', { user });
-      }
+      res.render('index.html.twig', { user: await contentful.getEntry(entryId) });
     },
   ],
 ];
