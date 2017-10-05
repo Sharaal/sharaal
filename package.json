@@ -10,12 +10,15 @@
   "license": "UNLICENSED",
   "scripts": {
     "postinstall": "bower i",
-    "start": "dnode-web"
+    "start": "node src/web.js"
   },
   "dependencies": {
     "@dnode/contentful": "^1.0.0",
+    "@dnode/controllers": "^1.0.5",
+    "@dnode/env": "^1.0.0",
+    "@dnode/express": "^1.0.1",
+    "@dnode/middlewares": "^1.0.5",
     "@dnode/swig": "^1.0.0",
-    "@dnode/web": "^2.0.0",
     "bower": "^1.8.0"
   }
 }
