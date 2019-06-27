@@ -18,7 +18,7 @@
               </div>
               <div class="col-md-9">
                 <h4>{{ reference.title }}</h4>
-                <p class="text-justify">{{ reference.description|raw }}</p>
+                <p class="text-justify">{{ reference.description|markdown }}</p>
                 {% if reference.url %}<small><a href="{{ reference.url }}" target="_blank">{{ reference.url }}</a></small>{% endif %}
               </div>
             </div>

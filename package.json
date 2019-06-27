@@ -19,6 +19,7 @@
     "@dnode/express": "^1.0.1",
     "@dnode/middlewares": "^1.0.5",
     "@dnode/swig": "^1.0.0",
-    "bower": "^1.8.0"
+    "bower": "^1.8.0",
+    "showdown": "^1.9.0"
   }
 }

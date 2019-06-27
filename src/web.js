@@ -1,6 +1,14 @@
 require('@dnode/env');
 require('@dnode/express')((app, express) => {
-  require('@dnode/swig')({ app });
+  const swig = require('@dnode/swig')({ app });
+
+  const showdown = require('showdown');
+  const converter = new showdown.Converter();
+  function markdown(input) {
+    return converter.makeHtml(input);
+  }
+  markdown.safe = true
+  swig.setFilter('markdown', markdown);
 
   require('@dnode/middlewares')(app, [
     express.static(require('path').join(process.cwd(), 'www')),
