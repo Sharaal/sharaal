@@ -4,7 +4,7 @@
     {% for jobinterest in user.jobinterests %}
       <div class="col-md-{{ columns }}">
         <h4 class="text-center">{{ jobinterest.title }}</h4>
-        <p class="text-justify">{{ jobinterest.description }}</p>
+        <p class="text-justify">{{ jobinterest.description|markdown }}</p>
       </div>
     {% endfor %}
   </div>

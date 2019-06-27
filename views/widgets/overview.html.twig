@@ -9,6 +9,6 @@
   <div class="col-xs-9">
     <p><strong>{{ user.job }}</strong></p>
     <p><strong>{{ user.company }}</strong>, {{ user.location }}</p>
-    <p class="text-justify">{{ user.blockquote }}</p>
+    <p class="text-justify">{{ user.blockquote|markdown }}</p>
   </div>
 </div>
